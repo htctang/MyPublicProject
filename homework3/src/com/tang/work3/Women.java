@@ -1,6 +1,6 @@
 package com.tang.work3;
 
-public class Women extends Human implements Employee,Developer{
+public class Women extends Human{
 
 	/*
 	 * 父类的抽象方法一定要实现

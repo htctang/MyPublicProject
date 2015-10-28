@@ -17,13 +17,20 @@ public class Main {
 		women.work();
 		women.code();
 		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
 		ArrayList<Human> mens = new ArrayList<Human>();
 		Men menplus =  new Men();
 		mens.add(menplus);
 		Women womenplus = new Women();
 		mens.add(womenplus);
 		for(Human temp: mens){
-		
+			temp.eat();
+			temp.walk();
+			temp.work();
+			temp.code();
 		}
 		
 

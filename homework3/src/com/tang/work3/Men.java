@@ -1,6 +1,6 @@
 package com.tang.work3;
 
-public class Men extends Human implements Employee,Developer{
+public class Men extends Human{
 
 	@Override
 	public void eat() {
