@@ -25,7 +25,7 @@ public class Women extends Human{
 		
 	}
 
-	@Override
+
 	public void work() {
 		System.out.println("我在工作");
 		
