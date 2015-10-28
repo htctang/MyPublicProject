@@ -22,6 +22,9 @@ public class Main {
 		mens.add(menplus);
 		Women womenplus = new Women();
 		mens.add(womenplus);
+		for(Human temp: mens){
+		
+		}
 		
 
 
